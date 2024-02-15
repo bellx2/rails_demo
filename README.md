@@ -20,4 +20,7 @@
 - Bootstrap CDNを使うように変更
   - https://getbootstrap.jp/docs/5.3/getting-started/introduction/
   - ```app/views/layouts/application.html.erb```にBootstrapのCDNを追加
+- BootstrapIconを導入
+  - https://icons.getbootstrap.jp/
+  - ```app/views/layouts/application.html.erb```にBootstrapIconのCDNを追加
 
