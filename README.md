@@ -16,7 +16,7 @@ DockerとVSCodeの開発コンテナ機能を使ってRailsの開発環境を構
 - ```bundle exec rails new .```
   - Gemfileは上書き。それ以外は上書きしない。
 - ```bundle exec rails g controller app index```
-- ```bundle exec rails s``で実行
+- ```bundle exec rails s```で実行
 
 ## Bootstrapを導入
 - Bootstrap CDNを使うように変更
