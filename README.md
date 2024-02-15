@@ -2,9 +2,11 @@
 
 DockerとVSCodeの開発コンテナ機能を使ってRailsの開発環境を構築する手順です。
 
-## Dockerの基本コンテナの作成
+## Dockerの基本コンテナの作成　(tag:step_0)
 - Dockerfile(Ruby環境)を作成する
   - FROM: ruby:3.3.0
+
+## Rails環境の構築　(tag:step_1)
 - VSCodeから「開発コンテナ構成ファイルを追加..」を選択
 - 「ワークスペースに構成を追加する」で「Dockerfileから」を選択
   - .devcontainerディレクトリが作成される
@@ -18,7 +20,7 @@ DockerとVSCodeの開発コンテナ機能を使ってRailsの開発環境を構
 - ```bundle exec rails g controller app index```
 - ```bundle exec rails s```で実行
 
-## Bootstrapを導入
+## Bootstrap/Iconを導入 (tag:step_2)
 - Bootstrap CDNを使うように変更
   - https://getbootstrap.jp/docs/5.3/getting-started/introduction/
   - ```app/views/layouts/application.html.erb```にBootstrapのCDNを追加
